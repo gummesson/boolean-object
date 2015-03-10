@@ -1,0 +1,5 @@
+test/
+.gitattributes
+.gitignore
+.travis.yml
+tags

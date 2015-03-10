@@ -1,0 +1,32 @@
+{
+  "name": "boolean-object",
+  "version": "1.0.0",
+  "description": "Convert object values to booleans.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/boolean-object.git"
+  },
+  "keywords": [
+    "object",
+    "boolean",
+    "truthy",
+    "falsy"
+  ],
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/boolean-object/issues"
+  },
+  "homepage": "https://github.com/gummesson/boolean-object",
+  "dependencies": {
+    "booly": "^1.0.2",
+    "split-object": "^2.1.0"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "node test/"
+  }
+}
