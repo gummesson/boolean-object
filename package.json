@@ -1,6 +1,6 @@
 {
   "name": "boolean-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert property values in objects to booleans.",
   "main": "index.js",
   "repository": {
