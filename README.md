@@ -8,13 +8,13 @@ Convert object values to booleans.
 
 ## Installation
 
-~~~ text
+```
 npm install boolean-object
-~~~
+```
 
 ## Usage
 
-~~~ javascript
+``` javascript
 var booleanObject = require('boolean-object')
 
 var obj = {
@@ -26,7 +26,7 @@ var obj = {
 }
 
 booleanObject(obj) // => { foo: true, bar: false, baz: true, qux: false, str: 'string' }
-~~~
+```
 
 [npm-img]: https://img.shields.io/npm/v/boolean-object.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/boolean-object
