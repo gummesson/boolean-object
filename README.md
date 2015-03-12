@@ -4,7 +4,7 @@
 [![License][license-img]][license-url]
 [![Build status][travis-img]][travis-url]
 
-Convert object values to booleans.
+Convert property values in objects to booleans.
 
 ## Installation
 
