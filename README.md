@@ -25,7 +25,14 @@ var obj = {
   str: 'string'
 }
 
-booleanObject(obj) // => { foo: true, bar: false, baz: true, qux: false, str: 'string' }
+booleanObject(obj)
+// {
+//    foo: true
+//    bar: false,
+//    baz: true,
+//    qux: false,
+//    str: 'string'
+// }
 ```
 
 [npm-img]: https://img.shields.io/npm/v/boolean-object.svg?style=flat-square
