@@ -1,5 +1,18 @@
+/**
+ * Dependencies
+ */
+
 var split = require('split-object')
 var bool  = require('booly')
+
+/**
+ * Convert the property values in `obj` to booleans.
+ *
+ * @param  {object} obj
+ * @return {object}
+ *
+ * @api public
+ */
 
 function booleanObject(obj) {
   var results = split(obj)
@@ -9,5 +22,9 @@ function booleanObject(obj) {
     })
   return split.join(results)
 }
+
+/**
+ * Exports
+ */
 
 module.exports = booleanObject
